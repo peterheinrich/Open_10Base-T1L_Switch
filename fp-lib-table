@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name "SJA1105Q")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint/SJA1105Q.pretty")(options "")(descr ""))
+  (lib (name "AE5002")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint/AE5002.pretty")(options "")(descr ""))
+  (lib (name "ADIN1100")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint/ADIN1100.pretty")(options "")(descr ""))
+  (lib (name "MMBD914L")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint/MMBD914L.pretty")(options "")(descr ""))
+  (lib (name "BAT54")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint/BAT54.pretty")(options "")(descr ""))
+  (lib (name "PID75")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint/PID75.pretty")(options "")(descr ""))
+  (lib (name "ICI70CGI")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint/ICI70CGI.pretty")(options "")(descr ""))
+  (lib (name "MSS1583")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint/MSS1583.pretty")(options "")(descr ""))
+  (lib (name "UCLAMP3311P")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint/UCLAMP3311P.pretty")(options "")(descr ""))
+)
