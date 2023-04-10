@@ -1,9 +1,0 @@
-(sym_lib_table
-  (lib (name "SJA1105Q")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/SJA1105Q.kicad_sym")(options "")(descr ""))
-  (lib (name "ADIN1100")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/ADIN1100.kicad_sym")(options "")(descr ""))
-  (lib (name "L_differential_1324")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/L_differential_1324.kicad_sym")(options "")(descr ""))
-  (lib (name "LTC4296-1")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/LTC4296-1.kicad_sym")(options "")(descr ""))
-  (lib (name "SIS412DN")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/SIS412DN.kicad_sym")(options "")(descr ""))
-  (lib (name "KSZ9131RNX")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/KSZ9131RNX.kicad_sym")(options "")(descr ""))
-  (lib (name "SC4626C")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/SC4626C.kicad_sym")(options "")(descr ""))
-)
