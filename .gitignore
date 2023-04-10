@@ -24,3 +24,11 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+\#auto_saved_files#
+*-bak
+*-backups
+doc/datasheets
+doc/supplemental
+~*
+.DS_Store
