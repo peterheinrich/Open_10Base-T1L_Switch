@@ -1593,7 +1593,7 @@
     (uuid e948cfbf-6538-4293-a223-ac5f0abf200f)
   )
 
-  (global_label "MDI_SSCPI_4" (shape output) (at 198.12 58.42 0) (fields_autoplaced)
+  (global_label "MDI_SCCPI_4" (shape output) (at 198.12 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4c631c48-0107-4155-bca3-7128418fea3d)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 212.5679 58.3406 0)
@@ -1670,7 +1670,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "MDI_SSCPO_4" (shape input) (at 198.12 60.96 0) (fields_autoplaced)
+  (global_label "MDI_SCCPO_4" (shape input) (at 198.12 60.96 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e2dbbbf5-b32a-411b-b74d-630abd418700)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 213.2936 60.8806 0)
