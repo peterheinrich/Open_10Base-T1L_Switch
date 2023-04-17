@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -103,28 +103,38 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.125,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.21,
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false,
@@ -358,14 +368,14 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.25,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.21,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6.0
       }
     ],
@@ -433,35 +443,31 @@
       "SJA1105Q Switch"
     ],
     [
-      "587a8c72-1885-46e8-8d16-8dc3080c90ac",
-      "SJA1105Q Power"
-    ],
-    [
       "540a35be-5ce5-4e78-a999-7fc1ebace0af",
       "10Base-T1L-PHY0"
     ],
     [
-      "86d2ece0-099e-4f22-b56f-27db2fa86582",
+      "d59f2f01-7a47-489d-8579-169b5a2d6583",
       "10Base-T1L-PHY1"
     ],
     [
-      "361b39b9-39f7-4145-8995-daa2311405df",
+      "97788097-7ae8-4633-8379-70ec77fc265a",
       "10Base-T1L-PHY2"
     ],
     [
-      "83f7cd7c-cf12-4588-9ebe-10900bd0f839",
+      "5cb17484-6c55-4dc8-b822-935b123e8255",
       "10Base-T1L-PHY3"
     ],
     [
-      "c3bdfcf6-2290-476c-985f-af5c870ad69d",
+      "5729b06a-8a8e-4a5f-b2d5-b7a935529f5b",
       "10Base-T1L-PHY4"
     ],
     [
-      "680cde7d-0425-4c92-a32f-e6d2d4027d11",
+      "ea4e4fda-3a69-4b4b-b8dc-053aeebd8d07",
       "10Base-T1L-PHY5"
     ],
     [
-      "4e6b03ed-e7fd-46b8-9e46-179879345edf",
+      "92bcb26b-a498-4c0f-b5bd-3398b023f8d2",
       "10Base-T1L-PHY6"
     ],
     [
@@ -469,24 +475,16 @@
       "100Base-TX-PHY7"
     ],
     [
-      "1b6596a4-e93d-47d7-a68c-07db4622c444",
-      "PoDL PHY 0-1"
-    ],
-    [
-      "85b9f69d-28cf-41b8-b951-4504e8165809",
-      "PoDL PHY 2-3"
+      "587a8c72-1885-46e8-8d16-8dc3080c90ac",
+      "SJA1105Q Power"
     ],
     [
       "2791eeac-7161-4575-b328-255599882d54",
-      "PoDL PHY4 REG0"
+      "PoDL_REG0"
     ],
     [
-      "61a34cd5-8049-4841-bd30-793bf344fe8a",
-      "PoDL PHY 5-6"
-    ],
-    [
-      "264b588b-50bc-426d-9712-61518f8d2f62",
-      "PoDL REG1"
+      "56645482-255e-4be1-ba9c-c3af050ed235",
+      "PoDL_REG1"
     ],
     [
       "fd2af9f1-0d76-4094-b8b0-d84bbfd46084",
@@ -495,6 +493,10 @@
     [
       "a8977ccd-9a26-469f-a145-66737d2f9011",
       "Power Supply"
+    ],
+    [
+      "4f4c11cd-5f80-4522-99ee-f2d9b2f4efda",
+      "UnusedUnits"
     ]
   ],
   "text_variables": {}
