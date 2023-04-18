@@ -11,3 +11,9 @@ Each of the 10Base-T1L ports offer power over datalines utilizing two 5-Port pow
 
 An RP2040 functions as a system controller configuring the switch components.
 
+## Current State of Layout/Placement
+![Placement Top](doc/Placement_TOP.png)
+![Placement Bottom](doc/Placement_BOT.png)
+
+
+
