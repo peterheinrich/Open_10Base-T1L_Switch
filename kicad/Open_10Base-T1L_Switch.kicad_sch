@@ -1045,6 +1045,9 @@
     (path "/c2502b9d-157e-442b-a9a0-397ef7fb686a"
       (reference "#LOGO101") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
     )
+    (path "/451c8b3f-ad7a-43d3-b68d-1d1c49ddb2ee/fb1bbd25-1012-419d-9ece-6a8a40c05c5d"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
     (path "/966a48a2-7c01-461d-a869-36738ca10083/592e6da6-8d8a-45c1-9f9c-79004c3c9214"
       (reference "#PWR0201") (unit 1) (value "+3V3") (footprint "")
     )
@@ -3972,6 +3975,15 @@
     )
     (path "/451c8b3f-ad7a-43d3-b68d-1d1c49ddb2ee/8bb61417-b574-4f4e-b8f8-3319ce35b7ac"
       (reference "R1025") (unit 1) (value "3K3") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/451c8b3f-ad7a-43d3-b68d-1d1c49ddb2ee/9f18c165-da28-4746-b1df-524ee3efccd8"
+      (reference "R1026") (unit 1) (value "3K3") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/451c8b3f-ad7a-43d3-b68d-1d1c49ddb2ee/24a3afe4-fa5a-458d-b139-f15864d329e7"
+      (reference "R1027") (unit 1) (value "3K3") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/451c8b3f-ad7a-43d3-b68d-1d1c49ddb2ee/107276c0-6564-4095-84cd-587a89bbc1c3"
+      (reference "R1028") (unit 1) (value "3K3") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2791eeac-7161-4575-b328-255599882d54/1adbfcf8-a2bc-4a01-b656-7088450598da"
       (reference "R1201") (unit 1) (value "24K3") (footprint "Resistor_SMD:R_0603_1608Metric")
