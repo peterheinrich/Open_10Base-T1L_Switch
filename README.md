@@ -1,3 +1,5 @@
+# !!! UNTESTED DESIGN STUDY - WORK IN PROGRESS !!!
+
 # Open_10Base-T1L_Switch
 Open Hardware 7-Port 10Base-T1L and 1-Port 20/100/1000Base-T Field Switch Design
 
